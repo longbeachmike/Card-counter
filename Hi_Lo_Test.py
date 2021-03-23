@@ -40,8 +40,8 @@ def QUICK_WAIT():
 def MEDIUM_WAIT(): 
     return MEDIUM_WAIT_ + (random.random() / 2)
 
-def LONG_ASS_WAIT(): # Pour la navigation entre les pages
-    return LONG_ASS_WAIT_ + (random.random() / 1)
+def LONG_WAIT(): # Pour la navigation entre les pages
+    return LONG_WAIT_ + (random.random() / 1)
 
 # slow typing function
 def slow_typing(element, text):
